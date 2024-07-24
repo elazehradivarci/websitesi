@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+nav {
+
+    font-family: sans-serif;
+    background-color: #677a8526;
+
+
+}
+
+
+.container {
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-right: 15px;
+}
+
+#nav-links {
+    float: right;
+}
+
+#logo-box {
+    float: left;
+    padding: 15px;
+    padding-left: 45px;
+
+}
+
+#nav-links .nav-item {
+    float: left;
+    margin: 5px;
+    padding-top: 10px;
+
+}
+
+#nav-links .nav-link {
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: block;
+    padding: 20px 14px;
+    transition: color 0.3s;
+}
+
+#nav-links .nav-link:hover {
+    color: red;
+
+}
+
+#div-links .div-item {
+    float: right;
+    margin: 5px;
+    padding-right: 5px;
+
+}
+
+#div-links .div-link {
+    color: #677A85;
+    font-size: 12px;
+    display: block;
+    padding: 10px 10px;
+
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    text-align: center;
+
+
+}
+
+.ilk {
+    font-size: 18px;
+    color: #595959;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+.iki {
+    font-size: 48px;
+    color: #E93232;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+
+}
+
+.img2 {
+    padding-top: 90px;
+}
+
+.buton {
+    float: right;
+    margin: 5px;
+    padding-right: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 150px;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.cizgi1 hr {
+    height: 2px;
+    background-color: #dd3333;
+    border: none;
+    margin: 0;
+
+
+}
+
+.cizgi2 hr {
+    height: 2px;
+    background-color: #dd3333;
+    border: none;
+    margin: 0;
+
+
+}
+
+
+.yazıekle {
+    position: relative;
+    width: 1120px;
+    margin-top: 50px;
+}
+
+.yazıekle img {
+    width: 100%;
+}
+
+.yazıekle h2 {
+    position: absolute;
+    top: 50px;
+    /* Yazıyı üstten 50px aşağıya yerleştirir */
+    left: 50px;
+    /* Yazıyı soldan 50px sağa yerleştirir */
+    color: white;
+    /* Yazı rengini beyaz yapar */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Yazının arkasına yarı saydam arka plan ekler */
+    padding: 10px;
+    /* Yazının etrafına boşluk ekler */
+    margin-bottom: 200px;
+    /* Varsayılan margin değerini kaldırır */
+}
+
+.medya {
+    padding-right: 200px;
+}
+
+.uc {
+    font-size: 48px;
+    color: #E93232;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+}
+
+
+
+.header2 {
+    background-color: #e93232;
+    height: 520px;
+    width: 1180px;
+    margin-top: 125px;
+    margin-right: 150px;
+    margin-bottom: 250px;
+    margin-left: 170px;
+    padding-top: 110px;
+    border: 5px solid #E93232;
+
+}
+
+.cizgi3 hr {
+    height: 2px;
+    background-color: #ffffff;
+    border: none;
+    margin: 0;
+}
+
+.cizgi4 hr {
+    height: 2px;
+    background-color: #ffffff;
+    border: none;
+    margin: 0;
+}
+
+.bes {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+.altı {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box1 {
+    position: absolute;
+
+    width: 302px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 160px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #595959;
+
+
+}
+
+.yazı {
+    position: relative;
+    font-size: 25px;
+    padding-top: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    line-height: 150%;
+    color: #595959;
+}
+
+.box2 {
+    position: absolute;
+
+    width: 302px;
+    height: 400px;
+    margin-left: 433px;
+    margin-top: 160px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #595959;
+
+
+}
+
+.yazı2 {
+    font-size: 25px;
+    padding-top: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    line-height: 150%;
+    color: #595959;
+
+}
+
+.box3 {
+
+    position: absolute;
+
+    width: 302px;
+    height: 400px;
+    margin-left: 817px;
+    margin-top: 160px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #595959;
+
+
+}
+
+.yazı3 {
+    font-size: 25px;
+    padding-top: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    line-height: 150%;
+    color: #595959;
+
+}
+
+.b1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #dd33d5;
+    border: none;
+    border-radius: 7px;
+    top: 700x;
+    left: 160px;
+}
+
+.kervann12 {
+    margin-top: 400px;
+    width: 700;
+}
